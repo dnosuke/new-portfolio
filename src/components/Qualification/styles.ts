@@ -27,4 +27,20 @@ export const Data = styled.div`
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
+
+    .rounder {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    .line {
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: red;
+        transform: translate(6px, -7px);
+    }
 `;

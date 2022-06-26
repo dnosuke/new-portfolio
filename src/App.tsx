@@ -3,6 +3,7 @@ import { About } from './components/About';
 import { ImageHome } from './components/Image';
 import { Introduce } from './components/Introduce';
 import { Navbar } from './components/Navbar';
+import { Portfolio } from './components/Portfolio';
 import { Qualification } from './components/Qualification';
 import { Skills } from './components/Skills';
 import { Social } from './components/SocialMedia';
@@ -23,6 +24,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
+        <Portfolio />
     </div>
   );
 }

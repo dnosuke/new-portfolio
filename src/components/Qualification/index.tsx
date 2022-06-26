@@ -27,18 +27,21 @@ export const Qualification = () => {
                 </div>
 
                 <div>
-                    <span></span>
-                    <span></span>
+                    <span className="rounder"></span>
+                    <span className="line"></span>
                 </div>
 
                 <div>
-                    <span></span>
-                    <span></span>
+                    <span ></span>
                 </div>
 
                 <div>
-                    <span></span>
-                    <span></span>
+                    <span ></span>
+                </div>
+
+
+                <div>
+                    <span className="rounder"></span>
                 </div>
 
                 <div>
@@ -49,12 +52,6 @@ export const Qualification = () => {
                         <span>2022 - 2025</span>
                     </div>
                 </div>
-
-                <div>
-                    <span></span>
-                    <span></span>
-                </div>
-
                 <div>
                     <h3>Frontend</h3>
                     <span>Acua</span>
@@ -65,7 +62,7 @@ export const Qualification = () => {
                 </div>
 
                 <div>
-                    <span></span>
+                    <span className="rounder"></span>
                 </div>
             </C.Data>
         </C.Container>

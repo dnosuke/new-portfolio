@@ -31,4 +31,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* Small devices */
+div.swiper-button-prev,
+div.swiper-button-next {
+   color: red;
+   padding: 0 2.5rem;
+}
+
+div.swiper-button-next:after, div.swiper-button-prev:after {
+  font-size: 1.5rem;
+}
+
+div.swiper-button-prev {
+  left: -.5rem
+}
+
+div.swiper-button-next {
+  right: -.5rem;
+}
+
+div.swiper-horizontal > div.swiper-pagination-bullets {
+  bottom: -1.5rem;
+}
+
+span.swiper-pagination-bullet-active {
+  background: red;
+}
+
+div.swiper-button-prev,
+div.swiper-button-next,
+div.swiper-pagination-bullets {
+   outline: none;
+}
