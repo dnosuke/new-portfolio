@@ -1,5 +1,6 @@
 import React from 'react';
 import { About } from './components/About';
+import { Contact } from './components/Contact';
 import { ImageHome } from './components/Image';
 import { Introduce } from './components/Introduce';
 import { Navbar } from './components/Navbar';
@@ -25,6 +26,7 @@ function App() {
         <Skills />
         <Qualification />
         <Portfolio />
+        <Contact />
     </div>
   );
 }

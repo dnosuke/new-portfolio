@@ -19,6 +19,7 @@ export const Data = styled.div`
     flex-direction: column;
     overflow: initial;
     padding: 0 3.5rem;
+    margin-bottom: 2rem;
 
 .button {
         align-self: flex-start;

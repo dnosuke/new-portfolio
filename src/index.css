@@ -50,7 +50,7 @@ div.swiper-button-next {
 }
 
 div.swiper-horizontal > div.swiper-pagination-bullets {
-  bottom: -1.5rem;
+  bottom: -.25rem;
 }
 
 span.swiper-pagination-bullet-active {
