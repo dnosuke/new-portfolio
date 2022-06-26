@@ -50,6 +50,16 @@ export const Navbar = () => {
                             </a>
                         </div>
                     </div>
+
+                    <div className="navbar-end">
+                        <div className="navbar-item">
+                            <div className="buttons">
+                                <a className="button is-primary">
+                                <i className="uil uil-moon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

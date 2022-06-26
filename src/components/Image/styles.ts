@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Bat = styled.img`
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 150px;
 `;

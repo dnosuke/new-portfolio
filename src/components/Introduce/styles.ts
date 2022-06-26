@@ -53,11 +53,21 @@ export const Container = styled.div`
         margin-right: 10px;
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 800px) {
         order: 1;
 
         .scroll-button {
             display: none;
         }
     }
+
+    @media screen and (max-width: 350px){
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+}
+    @media screen and (min-width: 768px){
+        margin-left: 1rem;
+        margin-right: 1rem;
+        order: unset;
+}
 `;

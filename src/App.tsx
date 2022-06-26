@@ -1,4 +1,5 @@
 import React from 'react';
+import { About } from './components/About';
 import { ImageHome } from './components/Image';
 import { Introduce } from './components/Introduce';
 import { Navbar } from './components/Navbar';
@@ -17,6 +18,7 @@ function App() {
         <Introduce />
         <ImageHome />
       </C.Container>
+        <About />
     </div>
   );
 }
