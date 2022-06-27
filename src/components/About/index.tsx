@@ -11,23 +11,24 @@ export const About = () => {
                 <h2 id="about">About Me</h2>
                 <span>My introducion</span>
             <C.Introducion>
-                <C.Img src={imgAbout} />
+                <img src={imgAbout} />
+
+                <div className="info">
                 <span className="text">
                     Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
                 </span>
 
-            </C.Introducion>
-
-
-            <C.Info>
+                <C.Info>
                 <span>1</span>
                 <span>2</span>
                 <span>3</span>
+                </C.Info>
 
-            </C.Info>
-            <a href="assets/pdf/Alexa-Cv.pdf" className="button">
+                <a href="assets/pdf/" className="button">
                 Download CV<i className="uil uil-download-alt"></i>
-            </a>
+                </a>
+                </div>
+            </C.Introducion>
 
         </C.Container>
 

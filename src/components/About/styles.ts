@@ -44,22 +44,26 @@ export const Introducion = styled.div`
         margin-top: 1.5rem;
     }
 
+    img {
+        margin-bottom: .5rem;
+        width: 200px;
+        border-radius: .5rem;
+        align-self: center;
+    }
+
     @media screen and (min-width: 568px){
         display: flex;
         flex-direction: row;
 
         .text {
-            margin-left: 1rem;
             text-align: start;
         }
+
+        .info {
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
  }
-`;
-
-export const Img = styled.img`
-    width: 200px;
-    border-radius: .5rem;
-    align-self: center;
-
 `;
 
 export const Info = styled.div`
