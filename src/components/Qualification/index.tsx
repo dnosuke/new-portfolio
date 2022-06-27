@@ -6,14 +6,21 @@ export const Qualification = () => {
     return (
 
         <C.Container>
-            <h1>Qualification</h1>
+            <div className="name" id="qualification">
+            <h2>Qualification</h2>
             <span>My personal journey</span>
+            </div>
 
             <div className="tabs">
+                <div>
                 <i className="uil uil-graduation-cap"></i>
                 <h3>Education</h3>
+                </div>
+                
+                <div>
                 <i className="uil uil-briefcase-alt"></i>
                 <h3>Work</h3>
+                </div>
             </div>
 
             <C.Data>

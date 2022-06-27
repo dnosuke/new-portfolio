@@ -4,14 +4,37 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 
+.name {
+    align-self: center;
+    text-align: center;
+
+    h2 {
+        font-size: 1.25rem;
+    }
+} 
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
     i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-right: .75rem;
-        color: red;
+        color: hsl(250, 69%, 61%);
+
+    }
+    
+    .send {
+        margin-left: .5rem;
+        font-size: 1.25rem;
+        color: #FFF;
     }
 
     .field {
@@ -38,11 +61,15 @@ export const Container = styled.div`
     .button {
         align-self: flex-start;
         align-items: center;
-        background-color: #8000ff;
+        background-color: hsl(250, 69%, 61%);
         color: #FFF;
         padding: 1rem;
         border-radius: 0.5rem;
         font-weight: 500;
     }
+
+    .button:hover {
+        background-color: hsl(250, 69%, 69%);
+}
 
 `;

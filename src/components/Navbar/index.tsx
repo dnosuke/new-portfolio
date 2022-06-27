@@ -1,10 +1,11 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Navbar = () => {
 
 
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://bulma.io">
                     <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
@@ -20,29 +21,81 @@ export const Navbar = () => {
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-end">
                     <a className="navbar-item">
-                        Home
+                        <Link
+                            activeClass="active"
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Home</Link>
                     </a>
 
                     <a className="navbar-item">
-                        Skills
+                        <Link
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >About</Link>
                     </a>
 
                     <a className="navbar-item">
-                        About
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                        >Contact</Link>
                     </a>
 
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
-                            More
+                            <Link
+                                activeClass="active"
+                                to="skills"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >Skills</Link>
                         </a>
 
                         <div className="navbar-dropdown">
 
                             <a className="navbar-item">
-                                Jobs
+                                <Link
+                                    activeClass="active"
+                                    to="portfolio"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Portfolio</Link>
                             </a>
                             <a className="navbar-item">
-                                Contact
+                                <Link
+                                    activeClass="active"
+                                    to="qualification"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Qualification</Link>
+                            </a>
+                            <a className="navbar-item">
+                                <Link
+                                    activeClass="active"
+                                    to="footer"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Footer</Link>
                             </a>
                             <hr className="navbar-divider" />
                             <a className="navbar-item">
@@ -55,7 +108,7 @@ export const Navbar = () => {
                         <div className="navbar-item">
                             <div className="buttons">
                                 <a className="button is-primary">
-                                <i className="uil uil-moon"></i>
+                                    <i className="uil uil-moon"></i>
                                 </a>
                             </div>
                         </div>

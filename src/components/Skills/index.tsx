@@ -6,8 +6,11 @@ export const Skills = () => {
     return (
 
         <C.Container>
+
+            <div className="name" id="skills">
             <h2>Skills</h2>
             <span>My technical level</span>
+            </div>
 
             <div className="stack">
                 <i className="uil uil-brackets-curly"></i>
@@ -22,7 +25,7 @@ export const Skills = () => {
                 <h3>HTML</h3>
                 <span>90%</span>
             </div>
-            <progress className="progress is-small is-danger" value="90" max="100"></progress>
+            <progress className="progress is-small " value="90" max="100"></progress>
             <div className="skill">
                 <h3>CSS/Styled Components</h3>
                 <span>80%</span>

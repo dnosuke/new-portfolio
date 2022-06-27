@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    
+    margin-top: 2rem;
     .name {
         display: flex;
         flex-direction: column;
-        h1 {
+        h2 {
             align-self: center;
+            font-size: 1.25rem;
         }
         span {
             align-self: center;
@@ -24,14 +25,20 @@ export const Data = styled.div`
 .button {
         align-self: flex-start;
         align-items: center;
-        background-color: #8000ff;
+        background-color: hsl(250, 69%, 61%);
         color: #FFF;
         padding: 1rem;
         border-radius: 0.5rem;
         font-weight: 500;
     }
+
+.button:hover {
+    background-color: hsl(250, 69%, 69%);
+}
+
 .button:hover i {
     transform: translate(.25rem);
+    background-color: hsl(250, 69%, 69%);
 }
 
     img {

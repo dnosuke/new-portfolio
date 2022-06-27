@@ -7,12 +7,12 @@ export const About = () => {
 
     return (
         <C.Container>
-            <C.Introducion>
 
-                <h2>About Me</h2>
+                <h2 id="about">About Me</h2>
                 <span>My introducion</span>
+            <C.Introducion>
                 <C.Img src={imgAbout} />
-                <span>
+                <span className="text">
                     Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
                 </span>
 

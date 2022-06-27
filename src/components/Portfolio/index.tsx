@@ -12,8 +12,8 @@ export const Portfolio = () => {
 
     return (
         <C.Container>
-            <div className="name">
-                <h1>Portfolio</h1>
+            <div className="name" id="portfolio">
+                <h2>Portfolio</h2>
                 <span>Most recente work</span>
             </div>
             <Swiper

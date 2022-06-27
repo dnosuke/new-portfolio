@@ -5,14 +5,23 @@ export const Contact = () => {
 
     return (
         <C.Container>
-            <h2>Contact me</h2>
-            <span>Get in touch</span>
-            <i className="uil uil-phone"></i>
-            <h3>Call Me</h3>
+            <div className="name" id="contact">
+                <h2>Contact me</h2>
+                <span>Get in touch</span>
+            </div>
+
+
+            <h3>
+                <i className="uil uil-phone"></i>
+                Call Me
+            </h3>
             <span>(86) 988092235</span>
 
-            <i className="uil uil-envelope"></i>
-            <h3>Email</h3>
+
+            <h3>
+                <i className="uil uil-envelope"></i>
+                Email
+            </h3>
             <span>alaindelonm@gmail.com</span>
 
             <div className="field">
@@ -37,7 +46,7 @@ export const Contact = () => {
             </div>
 
             <a href="#contact" className="button">
-                Send Message <i className="uil uil-message" ></i>
+                Send Message <i className="uil uil-message send" ></i>
             </a>
 
         </C.Container>

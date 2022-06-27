@@ -1,6 +1,7 @@
 import React from 'react';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 import { ImageHome } from './components/Image';
 import { Introduce } from './components/Introduce';
 import { Navbar } from './components/Navbar';
@@ -18,15 +19,14 @@ function App() {
     <div className="App">
       <Navbar />
       <C.Container>
-        <Social />
         <Introduce />
-        <ImageHome />
       </C.Container>
         <About />
         <Skills />
         <Qualification />
         <Portfolio />
         <Contact />
+        <Footer />
     </div>
   );
 }
