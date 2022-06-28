@@ -44,6 +44,22 @@ export const Data = styled.div`
     img {
         width: 265px;
         border-radius: .5rem;
+        margin-bottom: 1rem;
         align-self: center;
+    }
+
+    @media screen and (min-width: 1024px){ 
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 4rem;
+     padding: 0 17rem;
+
+     img {
+            width: 400px;
+        }
+
+        .itens {
+            margin-left: 2rem;
+        }
     }
 `;

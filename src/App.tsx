@@ -18,9 +18,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <C.Container>
         <Introduce />
-      </C.Container>
         <About />
         <Skills />
         <Qualification />

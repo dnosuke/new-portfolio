@@ -15,7 +15,7 @@ export const About = () => {
 
                 <div className="info">
                 <span className="text">
-                    Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+                    Web developer, with extensive knowledge <br /> and years of experience, working in web <br /> technologies and Ui / Ux design, delivering <br /> quality work.
                 </span>
 
                 <C.Info>

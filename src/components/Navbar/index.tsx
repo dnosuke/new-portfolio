@@ -55,6 +55,12 @@ export const Navbar = () => {
 
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
+                            More
+                        </a>
+
+                        <div className="navbar-dropdown">
+
+                            <a className="navbar-item">
                             <Link
                                 activeClass="active"
                                 to="skills"
@@ -63,10 +69,7 @@ export const Navbar = () => {
                                 offset={-70}
                                 duration={500}
                             >Skills</Link>
-                        </a>
-
-                        <div className="navbar-dropdown">
-
+                            </a>
                             <a className="navbar-item">
                                 <Link
                                     activeClass="active"

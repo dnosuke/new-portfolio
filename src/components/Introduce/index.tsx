@@ -7,7 +7,7 @@ export const Introduce = () => {
     return (
         <C.Container>
             
-
+                
                 <div className="social" >
                 <a href="https://github.com/" target="_blank">
                 <i className="uil uil-github"></i>
@@ -21,7 +21,7 @@ export const Introduce = () => {
                     <h1>Hi, I'm Batman</h1>
                     <h2>Frontend Developer</h2>
                     <p>High level experience in web design and
-                        development knowledge, producing quality work.
+                        development knowledge,<br/> producing quality work. andbecome the most intaknmdauisdbakjsdakbd
                     </p>
                     <a href="#contact" className="button">
                         Contact Me <i className="uil uil-message button__icon" ></i>

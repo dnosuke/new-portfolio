@@ -42,6 +42,7 @@ export const Container = styled.div`
             color: hsl(250, 8%, 65%);
         }
     }
+
 `;
 
 export const Data = styled.div`
@@ -65,5 +66,14 @@ export const Data = styled.div`
         height: 100%;
         background-color: hsl(250, 69%, 61%);
         transform: translate(6px, -7px);
+    }
+
+    @media screen and (min-width: 500px){ 
+        width: 420px;
+        align-self: center;
+    }
+
+    @media screen and (min-width: 1024px){ 
+        width: 600px;
     }
 `;

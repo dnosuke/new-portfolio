@@ -28,6 +28,8 @@ export const Portfolio = () => {
                 <SwiperSlide>
                     <C.Data>
                         <img src={website1} alt="website" />
+
+                        <div className="itens">
                         <h3>Modern Website</h3>
                         <p>Website adaptable to all devices, with ui components and animated interactions.
                         </p>
@@ -35,12 +37,15 @@ export const Portfolio = () => {
                             Demo
                             <i className="uil uil-arrow-right"></i>
                         </a>
+                        </div>
                     </C.Data>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <C.Data>
                         <img src={website2} alt="website" />
+
+                        <div className="itens">
                         <h3>Modern Website</h3>
                         <p>Website adaptable to all devices, with ui components and animated interactions.
                         </p>
@@ -48,12 +53,15 @@ export const Portfolio = () => {
                             Demo
                             <i className="uil uil-arrow-right"></i>
                         </a>
+                        </div>
                     </C.Data>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <C.Data>
                         <img src={website3} alt="website" />
+                        
+                        <div className="itens">
                         <h3>Modern Website</h3>
                         <p>Website adaptable to all devices, with ui components and animated interactions.
                         </p>
@@ -61,6 +69,7 @@ export const Portfolio = () => {
                             Demo
                             <i className="uil uil-arrow-right"></i>
                         </a>
+                        </div>
                     </C.Data>
                 </SwiperSlide>
             </Swiper>

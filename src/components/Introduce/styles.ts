@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -129,4 +130,21 @@ export const Container = styled.div`
         }
 }
 
+@media screen and (min-width: 1024px){        
+   
+
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .name {
+        transform: translateX(-6rem);
+    }
+    .social {
+        transform: translateX(-8rem);
+    }
+
+}
 `;

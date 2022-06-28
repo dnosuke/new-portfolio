@@ -33,7 +33,7 @@ export const Container = styled.div`
 
     .name {
         align-self: center;
-        margin-bottom: .5rem;
+        margin-bottom: 3rem;
 }
     .skill {
         display: flex;
@@ -43,5 +43,34 @@ export const Container = styled.div`
     .stack {
         display: flex;
         justify-content: space-around;
+    }
+    
+    .container-skill {
+        margin-bottom: 2rem;
+    }
+
+    @media screen and (min-width: 1024px){
+        align-items: center;
+       
+        .content-skills {
+            display: flex;
+        }
+        .container-skill{
+            width: 500px;
+            margin-right: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+        
+        .stack {
+            justify-content: center;
+            
+            div {
+                margin-left: 1rem;
+                margin-right: 3rem;
+            }
+        }
     }
 `;

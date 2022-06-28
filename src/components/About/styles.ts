@@ -32,12 +32,18 @@ export const Container = styled.div`
     background-color: hsl(250, 69%, 69%);
 }
 
+@media screen and (min-width: 1024px){        
+        h2 {
+            font-size: 2rem;
+        }
+}
+
 `;
 
 export const Introducion = styled.div`
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: initial;
     margin-bottom: 2.5rem;
 
     .text {
@@ -63,6 +69,14 @@ export const Introducion = styled.div`
             margin-left: 4rem;
             margin-right: 4rem;
         }
+
+    @media screen and (min-width: 1024px){        
+        justify-content: center;
+
+    img {
+        width: 420px;
+    }
+}
  }
 `;
 
