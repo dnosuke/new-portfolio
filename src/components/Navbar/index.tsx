@@ -1,25 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import * as C from './styles'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Navbar = () => {
+    const [burguer, setBurguer] = useState('')
 
+    useEffect(() => {
+
+
+    }, [burguer])
+
+    function handleBurguer() {
+        if (burguer != 'is-active') {
+            setBurguer('is-active')
+        }else{
+            setBurguer('')
+        }
+    }
 
     return (
         <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+           
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://bulma.io">
-                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+                    Batman
                 </a>
 
-                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" onClick={handleBurguer} className={`navbar-burger ${burguer}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu">
-                <div className="navbar-end">
+            <div id="navbarBasicExample" className={`navbar-menu ${burguer}`}>
+                <div className="navbar-end" >
                     <a className="navbar-item">
                         <Link
                             activeClass="active"
@@ -58,17 +73,17 @@ export const Navbar = () => {
                             More
                         </a>
 
-                        <div className="navbar-dropdown">
+                        <div className="navbar-dropdown" >
 
                             <a className="navbar-item">
-                            <Link
-                                activeClass="active"
-                                to="skills"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={500}
-                            >Skills</Link>
+                                <Link
+                                    activeClass="active"
+                                    to="skills"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >Skills</Link>
                             </a>
                             <a className="navbar-item">
                                 <Link
@@ -108,16 +123,15 @@ export const Navbar = () => {
                     </div>
 
                     <div className="navbar-end">
-                        <div className="navbar-item">
+                        <div className="navbar-item" style={{ marginRight: 50}}>
                             <div className="buttons">
-                                <a className="button is-primary">
-                                    <i className="uil uil-moon"></i>
-                                </a>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </nav>
     )
 }
