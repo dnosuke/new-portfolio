@@ -19,7 +19,7 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
            
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://bulma.io">

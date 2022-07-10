@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -44,6 +43,8 @@ export const Container = styled.div`
     }
     
     .button {
+        width: 20vh;
+        height: auto;
         align-self: flex-start;
         align-items: center;
         background-color: hsl(250, 69%, 61%);
@@ -106,6 +107,12 @@ export const Container = styled.div`
         flex-wrap: wrap;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
+        width: auto;
+        height: 90vh ;
+
+        .button {
+            margin-top: 2rem;
+        }
         
         .social {
             align-self: center;
@@ -115,7 +122,8 @@ export const Container = styled.div`
             order: 1;
         }
         img {
-            margin-left: 3rem;
+            margin-top: 8rem;
+            margin-left: 4rem;
             margin-bottom: 1rem;
         }
         
@@ -131,15 +139,17 @@ export const Container = styled.div`
 }
 
 @media screen and (min-width: 1024px){        
-   
-
+        width: auto;
+        height:100vh ;
 
     img {
+        align-self: center;
         width: 200px;
         height: 200px;
     }
 
     .name {
+        align-self: center;
         transform: translateX(-6rem);
     }
     .social {
